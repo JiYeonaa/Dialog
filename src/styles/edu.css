@@ -1,0 +1,60 @@
+.edu {
+  padding: 100px 0 70px;
+}
+.edu__row {
+  display: flex;
+  column-gap: 20px;
+}
+.edu__card {
+  width: calc(25% - 15px);
+}
+.edu__card-top {
+  border: 1px solid #DEDEFF;
+  border-radius: 4px;
+  padding: 28px 20px;
+  text-align: center;
+  height: 183px;
+}
+.edu__card-title {
+  font-weight: 900;
+  font-size: 30px;
+  color: #3035C4;
+  height: 71px;
+}
+.edu__card-desc {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #23283B;
+  margin-top: 16px;
+}
+.edu__card-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  margin: 32px 0 0;
+  height: 215px;
+}
+.edu__card-item {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #23283B;
+}
+.edu__card-btn {
+  display: block;
+  margin: 0 auto;
+}
+.edu__card-link {
+  margin-top: 20px;
+  font-weight: 900;
+  font-size: 14px;
+  color: #3035C4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 12px;
+}

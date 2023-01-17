@@ -1,0 +1,28 @@
+.start {
+  padding: 120px 0 140px;
+  position: relative;
+}
+.start__content {
+  display: flex;
+  column-gap: 80px;
+}
+.start__left {
+  width: 50%;
+}
+.start__text {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #3035C4;
+}
+.start__title {
+  font-weight: 800;
+  font-size: 56px;
+  color: #23283B;
+  margin: 28px 0 52px;
+}
+.start__right {
+  position: absolute;
+  right: 0;
+  top: -100px;
+  z-index: -2;
+}

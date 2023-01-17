@@ -1,0 +1,49 @@
+.courses{
+  padding: 80px;
+  background: #F8F8FF;
+}
+
+.tabs__content {
+  display: none; /* по умолчанию прячем все блоки */
+}
+.tabs__content.active {
+  display: block; /* по умолчанию показываем нужный блок */
+}
+
+.tabs{
+  &__caption{
+    display: flex;
+    margin: 40px 30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__item{
+    &-text{
+      display: none;
+    }
+    &.active{
+      color: #E6514A;
+      .tabs___item-text{
+        display: inline;
+      }
+      text-decoration: underline;
+      text-underline-offset: 10px;
+    }
+  }
+  &__lvl{
+    width: 220px;
+    margin-bottom: 20px;
+    &-max{
+      margin-top: 20px;
+      width: 100%;
+      background: #DEDEFF;
+      border-radius: 10px;
+      height: 8px;
+    }
+    &-current{
+      background: #E6514A;
+      height: 100%;
+      border-radius: 10px;
+    }
+  }
+}
